@@ -11,13 +11,13 @@ public class Kitchen {
             this.kitchen_dish = new Dish(dish_name, category, kitchen_chef);
         }
 
-        public String generateKitchenStatus() {
+        public String generate_kitchen_status() {
             return "Kitchen Name: " + kitchen_name +
                     "\nDish Info: " + kitchen_dish.getDishInfo() +
                     "\nChef Info: " + kitchen_chef.get_chef_info();
         }
 
-        public String showIdentity() {
+        public String show_identity() {
             return "I am the Kitchen class. I compose the Dish (cannot exist without me) and aggregate the Chef (exists independently).";
         }
     }

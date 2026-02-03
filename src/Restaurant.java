@@ -11,12 +11,12 @@ public class Restaurant {
                 // Identity methods
                 chef1.show_identity() + "\n" +
                         chef2.show_identity() + "\n" +
-                        kitchen1.showIdentity() + "\n" +
-                        kitchen2.showIdentity() + "\n\n" +
+                        kitchen1.show_identity() + "\n" +
+                        kitchen2.show_identity() + "\n\n" +
 
                         // Functional output
-                        kitchen1.generateKitchenStatus() + "\n" +
-                        kitchen2.generateKitchenStatus()
+                        kitchen1.generate_kitchen_status() + "\n" +
+                        kitchen2.generate_kitchen_status()
         );
     }
 }

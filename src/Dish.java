@@ -13,7 +13,7 @@ public class Dish {
                 " | Prepared by: " + prepared_by.chef_name;
         }
 
-    public String showIdentity() {
+    public String show_identity() {
         return "I am the Dish class. I am part of the Kitchen (composition) and prepared by a Chef.";
         }
     }
